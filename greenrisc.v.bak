@@ -1,0 +1,13 @@
+module greenrisc(input clk, input flash, input [0:7] din, input  [0:7] addr);
+	
+	reg [0:7] rom [0:8192];
+	
+	always @ posedge(clk) begin
+		if(flash) begin
+			rom[addr] <= din;
+		end
+	end
+	
+	
+	
+endmodule

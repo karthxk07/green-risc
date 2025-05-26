@@ -1,0 +1,30 @@
+`timescale 1ns/1ps
+
+module programmer();
+
+	reg [0:7] din;
+	reg [0:7] addr;
+	reg clk;
+	reg flash;
+	
+	greenrisc uut(.clk(clk) , .flash(flash) , .din(din), .addr(addr));
+	
+	
+	always @(*) begin 
+		clk = !clk;
+	end
+	
+	initial begin
+		
+		
+	
+	
+	end
+	
+	
+	
+endmodule
+	
+	
+	
+	

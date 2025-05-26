@@ -1,0 +1,120 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Karthik/Documents/Projects/green-risc/simulation/questa
+vdecoder
+!s110 1748272578
+!i10b 1
+!s100 ZHV7;kUF9Nc9j_:PMIbl23
+IC>0ANjj81_4^o`PNdzSZ[1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1748272308
+8C:/Users/Karthik/Documents/Projects/green-risc/decoder.v
+FC:/Users/Karthik/Documents/Projects/green-risc/decoder.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1748272578.000000
+!s107 C:/Users/Karthik/Documents/Projects/green-risc/decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Karthik/Documents/Projects/green-risc|C:/Users/Karthik/Documents/Projects/green-risc/decoder.v|
+!i113 1
+Z3 o-vlog01compat -work work
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/Karthik/Documents/Projects/green-risc
+Z5 tCvgOpt 0
+vgreenrisc
+Z6 !s110 1748272418
+!i10b 1
+!s100 >;@GV<[YhG`jXn6o[Ed1N1
+I[70kPPU3A2jCQXd>66@EE1
+R1
+R0
+w1748271268
+8C:/Users/Karthik/Documents/Projects/green-risc/greenrisc.v
+FC:/Users/Karthik/Documents/Projects/green-risc/greenrisc.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z7 !s108 1748272418.000000
+!s107 C:/Users/Karthik/Documents/Projects/green-risc/greenrisc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Karthik/Documents/Projects/green-risc|C:/Users/Karthik/Documents/Projects/green-risc/greenrisc.v|
+!i113 1
+R3
+R4
+R5
+vimem
+R6
+!i10b 1
+!s100 iXkD>GQ;mGn2lFdXb`0FV0
+I8fU;h6P:IGE^i21O6fSKM2
+R1
+R0
+w1748271316
+8C:/Users/Karthik/Documents/Projects/green-risc/imem.v
+FC:/Users/Karthik/Documents/Projects/green-risc/imem.v
+L0 1
+R2
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Karthik/Documents/Projects/green-risc/imem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Karthik/Documents/Projects/green-risc|C:/Users/Karthik/Documents/Projects/green-risc/imem.v|
+!i113 1
+R3
+R4
+R5
+vpc
+R6
+!i10b 1
+!s100 4>f:MJzjFY1d@3:RKTM@60
+I]jIeo_gBj0<mY7jc>aN>R2
+R1
+R0
+w1748233397
+8C:/Users/Karthik/Documents/Projects/green-risc/pc.v
+FC:/Users/Karthik/Documents/Projects/green-risc/pc.v
+L0 1
+R2
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Karthik/Documents/Projects/green-risc/pc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Karthik/Documents/Projects/green-risc|C:/Users/Karthik/Documents/Projects/green-risc/pc.v|
+!i113 1
+R3
+R4
+R5
+vprogrammer
+R6
+!i10b 1
+!s100 3L6PGBCEXdRVJbR_F`BB?1
+I<WQn1^?b^HFYQWRo]D:gT2
+R1
+R0
+w1747636938
+8C:/Users/Karthik/Documents/Projects/green-risc/programmer.v
+FC:/Users/Karthik/Documents/Projects/green-risc/programmer.v
+L0 3
+R2
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Karthik/Documents/Projects/green-risc/programmer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Karthik/Documents/Projects/green-risc|C:/Users/Karthik/Documents/Projects/green-risc/programmer.v|
+!i113 1
+R3
+R4
+R5

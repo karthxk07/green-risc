@@ -1,0 +1,115 @@
+Flow report for greenrisc
+Mon May 26 20:42:07 2025
+Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2025  Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Altera and sold by Altera or its authorized distributors.  Please
+refer to the Altera Software License Subscription Agreements 
+on the Quartus Prime software download page.
+
+
+
++-------------------------------------------------------------------------+
+; Flow Summary                                                            ;
++-----------------------+-------------------------------------------------+
+; Flow Status           ; Successful - Mon May 26 20:42:07 2025           ;
+; Quartus Prime Version ; 24.1std.0 Build 1077 03/04/2025 SC Lite Edition ;
+; Revision Name         ; greenrisc                                       ;
+; Top-level Entity Name ; greenrisc                                       ;
+; Family                ; MAX II                                          ;
++-----------------------+-------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 05/26/2025 20:41:56 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; greenrisc           ;
++-------------------+---------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                        ;
++--------------------------------------+--------------------------------+---------------+-------------+-----------------------------------+
+; Assignment Name                      ; Value                          ; Default Value ; Entity Name ; Section Id                        ;
++--------------------------------------+--------------------------------+---------------+-------------+-----------------------------------+
+; COMPILER_SIGNATURE_ID                ; 44942188090907.174827231606372 ; --            ; --          ; --                                ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                             ; --            ; --          ; programmer                        ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                             ; --            ; --          ; faddder_tb                        ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                            ; --            ; --          ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                            ; --            ; --          ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                            ; --            ; --          ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                            ; --            ; --          ; eda_board_design_symbol           ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; programmer                     ; --            ; --          ; eda_simulation                    ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                    ; --            ; --          ; eda_simulation                    ;
+; EDA_SIMULATION_TOOL                  ; QuestaSim (Verilog)            ; <None>        ; --          ; --                                ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_FILE                  ; programmer.v                   ; --            ; --          ; programmer                        ;
+; EDA_TEST_BENCH_FILE                  ; fadder_tb.v                    ; --            ; --          ; faddder_tb                        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; programmer                     ; --            ; --          ; programmer                        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; faddder_tb                     ; --            ; --          ; faddder_tb                        ;
+; EDA_TEST_BENCH_NAME                  ; faddder_tb                     ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; programmer                     ; --            ; --          ; eda_simulation                    ;
+; EDA_TIME_SCALE                       ; 1 ns                           ; --            ; --          ; eda_simulation                    ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                   ; --            ; --          ; --                                ;
++--------------------------------------+--------------------------------+---------------+-------------+-----------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                          ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Elaboration ; 00:00:11     ; 1.0                     ; 4714 MB             ; 00:00:29                           ;
+; Total                  ; 00:00:11     ; --                      ; --                  ; 00:00:29                           ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++--------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                      ;
++------------------------+------------------+------------+------------+----------------+
+; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++------------------------+------------------+------------+------------+----------------+
+; Analysis & Elaboration ; Kiban            ; Windows 10 ; 10.0       ; x86_64         ;
++------------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off greenrisc -c greenrisc --analysis_and_elaboration
+
+
+

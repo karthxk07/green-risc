@@ -1,0 +1,126 @@
+$date
+	Mon May 19 07:19:51 2025
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module fadder_tb $end
+$var reg 4 ! a [3:0] $end
+$var reg 4 " b [3:0] $end
+$var reg 1 # c_in $end
+$var wire 1 $ sum [3] $end
+$var wire 1 % sum [2] $end
+$var wire 1 & sum [1] $end
+$var wire 1 ' sum [0] $end
+$var integer 32 ( i $end
+$var wire 1 ) c_out $end
+
+$scope module fa0 $end
+$var wire 1 * a [3] $end
+$var wire 1 + a [2] $end
+$var wire 1 , a [1] $end
+$var wire 1 - a [0] $end
+$var wire 1 . b [3] $end
+$var wire 1 / b [2] $end
+$var wire 1 0 b [1] $end
+$var wire 1 1 b [0] $end
+$var wire 1 2 c_in $end
+$var reg 1 3 c_out $end
+$var reg 4 4 sum [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+0#
+03
+b0 4
+b0 (
+0'
+0&
+0%
+0$
+0)
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+$end
+#10
+b1 (
+b100 !
+b1 "
+1#
+11
+1+
+12
+b110 4
+1&
+1%
+#20
+b10 (
+b11 !
+b1101 "
+1/
+1.
+1-
+1,
+0+
+b1 4
+13
+1'
+0&
+0%
+1)
+#30
+b11 (
+b101 !
+b10 "
+01
+10
+0/
+0.
+0,
+1+
+b1000 4
+03
+0'
+1$
+0)
+#40
+b100 (
+b1101 !
+b110 "
+1/
+1*
+b100 4
+13
+1%
+0$
+1)
+#50
+b101 (
+b1100 "
+00
+1.
+b1010 4
+1&
+0%
+1$
+#350
+0#
+02
+b1001 4
+1'
+0&
